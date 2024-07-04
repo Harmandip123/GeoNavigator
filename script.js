@@ -114,7 +114,7 @@ class App {
       // leaflet give us this L namspace jisse ham yea methods use kar rahi ahi like map(),tileLayer(),marker()
 
       const cordinates = [latitude, longitude];
-      this.#MAP = L.map('map').setView(cordinates, 13); //"map" is the id name of the map and yaha apne cordinates bhi dal deye,zoom level bhi bta deya
+      this.#MAP = L.map('map').setView(cordinates, 16); //"map" is the id name of the map and yaha apne cordinates bhi dal deye,zoom level bhi bta deya
       // ham map bhi chage kar sakte hai by doing some changes in tilelayer parameter
       L.tileLayer('https://tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
         attribution:
